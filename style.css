@@ -1,1 +1,105 @@
+body  {
+    margin:0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    background-color: #fff7fa;
+    color:#4b1f2f;
+    text-align: center;
+}
 
+
+header {
+    background-color: linear-gradient(#ffe1ec, #fff7fa);
+    padding: 60px 20px;
+    border-bottom: 3px solid #d4af37;
+}
+
+h1 { 
+    color:#8b004f;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color:#8b004f
+}
+
+.navbar {
+    background-color:#8b004f;
+    padding: 15px;
+}
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color:#d4af37;
+}
+section { 
+    padding: 40px 20px;
+}
+.container { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 18px;
+    border: 2px solid #d4af37;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+
+button {
+    background-color: #8b004f;
+    color: white;
+    border: 2px solid #d4af37;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.order-button {
+    display: inline-block;
+    background-color: #8b004f;
+    color: white;
+
+}
+button:hover {
+    background-color: #d4af37;
+    color: #8b004f;
+}
+
+footer {
+    background-color: #8b004f;
+    color: white;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    h1 { 
+        font-size: 30px;
+    }
+    .card {
+        width: 100%;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+}
